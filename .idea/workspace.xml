@@ -1,9 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6890b34b-961c-4cb5-a3b2-fafd3293e39b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g6N0a4ucW8s8nAdU0Z5GhevH8y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\lugle\WebstormProjects\stocks\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lugle\WebstormProjects\stocks\src\Components" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6890b34b-961c-4cb5-a3b2-fafd3293e39b" name="Default Changelist" comment="" />
+      <created>1597432617661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597432617661</updated>
+      <workItem from="1597432649579" duration="594000" />
+      <workItem from="1597684265245" duration="661000" />
+      <workItem from="1597686678626" duration="11756000" />
+      <workItem from="1597702281954" duration="3418000" />
+      <workItem from="1597710503930" duration="8121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="399" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597688401364">
+      <screen x="0" y="0" width="1333" height="849" />
+    </state>
+    <state x="399" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1333.849@0.0.1333.849" timestamp="1597688401364" />
+    <state x="187" y="323" key="Github.ShareDialog" timestamp="1597697886405">
+      <screen x="0" y="0" width="1333" height="849" />
+    </state>
+    <state x="187" y="323" key="Github.ShareDialog/0.0.1333.849@0.0.1333.849" timestamp="1597697886405" />
+    <state x="177" y="69" key="SettingsEditor" timestamp="1597693256959">
+      <screen x="0" y="0" width="1333" height="849" />
+    </state>
+    <state x="177" y="69" key="SettingsEditor/0.0.1333.849@0.0.1333.849" timestamp="1597693256959" />
   </component>
 </project>

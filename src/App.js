@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./Components/NavBar"
+import Search from "./Components/Search";
+import CssBaseline from '@material-ui/core/CssBaseline';
+import ApexCharts from 'apexcharts'
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <CssBaseline />
+            <NavBar/>
+            <div style={{display:"flex", flexDirection:"row"}}>
+          <Search />
+          <div style={{flex:2}}/>
+            </div>
+        </div>
+    );
 }
 
 export default App;
