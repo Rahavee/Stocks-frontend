@@ -11,7 +11,7 @@ const useStyles = makeStyles({
 
   },
   searchContainer: {
-    backgroundColor: "#010500",
+    background: "linear-gradient(#16EF9E, #5C79EF)",
     width: "100%",
     height: "100vh",
     flex: 1,
@@ -21,9 +21,9 @@ const useStyles = makeStyles({
   wrapper: {
     display: "flex",
     height: "10vh",
-    backgroundColor: "#485460",
+    backgroundColor: "#38B6C5",
     borderBottomWidth: 3,
-    borderColor:"black",
+    borderColor:"#5C79EF",
     borderStyle: "none none solid none"
   },
   searchButton: {

@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6890b34b-961c-4cb5-a3b2-fafd3293e39b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/NavBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/RightSide.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PieChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +59,35 @@
       <workItem from="1597684265245" duration="661000" />
       <workItem from="1597686678626" duration="11756000" />
       <workItem from="1597702281954" duration="3418000" />
-      <workItem from="1597710503930" duration="8121000" />
+      <workItem from="1597710503930" duration="12998000" />
+      <workItem from="1597852511818" duration="12555000" />
     </task>
+    <task id="LOCAL-00001" summary="Added search bar">
+      <created>1597772273523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597772273523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added search bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="399" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597688401364">
       <screen x="0" y="0" width="1333" height="849" />
     </state>
     <state x="399" y="173" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1333.849@0.0.1333.849" timestamp="1597688401364" />
+    <state x="291" y="0" key="CommitChangelistDialog2" timestamp="1597772272222">
+      <screen x="0" y="0" width="1333" height="849" />
+    </state>
+    <state x="291" y="0" key="CommitChangelistDialog2/0.0.1333.849@0.0.1333.849" timestamp="1597772272222" />
     <state x="187" y="323" key="Github.ShareDialog" timestamp="1597697886405">
       <screen x="0" y="0" width="1333" height="849" />
     </state>
