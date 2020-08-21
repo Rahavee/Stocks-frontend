@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from "./Components/NavBar"
 import Search from "./Components/Search";
 import RightSide from "./Components/RightSide";
 import CssBaseline from '@material-ui/core/CssBaseline';
