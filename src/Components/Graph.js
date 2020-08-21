@@ -6,7 +6,7 @@ const useStyles = makeStyles({
   graph: {
     width: "`100%-20`",
     height: 400,
-    backgroundColor: "pink",
+    backgroundColor: "white",
     margin: "10px 10px 0px 10px",
     borderRadius: 10,
     padding: "5px 0px 0px 10px",
@@ -54,9 +54,9 @@ export default function Graph(props) {
       theme: {
         monochrome: {
           enabled: true,
-          color: "#516AEE",
+          color: "#30C2BC",
           shadeTo: "light",
-          shadeIntensity: 0.9,
+          shadeIntensity: 1,
         },
       },
     },

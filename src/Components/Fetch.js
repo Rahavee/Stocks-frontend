@@ -6,7 +6,6 @@ const useStyles = makeStyles({
   card: {
     height: 60,
     width: "`100%-20px`",
-    //backgroundColor: "#ffffff",
     backgroundColor: "rgba(0,0,0,0.2)",
     padding: "20px 0 0 35px",
     marginTop:10,
