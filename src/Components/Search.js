@@ -21,7 +21,7 @@ const useStyles = makeStyles({
   wrapper: {
     display: "flex",
     height: "10vh",
-    backgroundColor: "#38B6C5",
+    background: "transparent",
     borderBottomWidth: 3,
     borderColor:"#5C79EF",
     borderStyle: "none none solid none"
@@ -32,9 +32,10 @@ const useStyles = makeStyles({
 
   },
 });
-export default function Search() {
+export default function Search({onChangeTerm}) {
   const [search, changeSearch] = React.useState("");
   const classes = useStyles();
+
   return (
     <div className={classes.searchContainer}>
       <div className={classes.wrapper}>
@@ -44,12 +45,12 @@ export default function Search() {
           placeholder="NASDAQ Symbol"
           variant="standard"
           value={search}
-          onChange={(text) => {
-            changeSearch(text.target.value);
+          onChange={ (text) => {
+            changeSearch(text.target.value.toUpperCase());
           }}
         />
       </div>
-      {search !== "" ?  <Fetch term={search}/>: ""}
+      {search !== "" ?  <Fetch onClickStock={(stock=>onChangeTerm(stock))} term={search}/>: ""}
 
     </div>
   );

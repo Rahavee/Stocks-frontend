@@ -9,11 +9,11 @@ const useStyles = makeStyles({
         flex:1,
         color:"black",
         borderRadius:10,
-        height:350
+
     }
 });
 
 export default function Desc(props){
     const classes = useStyles();
-    return(<div className={classes.container}>{props.data.scarper.desc}</div>)
+    return(<div className={classes.container}><h1>About</h1>{props.data.scarper.desc}</div>)
 }

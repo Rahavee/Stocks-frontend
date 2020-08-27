@@ -8,6 +8,7 @@ export default function (props) {
   const state = {
     series: percentages,
     options: {
+
       chart: {
         width: 380,
         type: "pie",

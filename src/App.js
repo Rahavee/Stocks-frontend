@@ -1,20 +1,28 @@
-import React from 'react';
+import React, { useState } from "react";
 import Search from "./Components/Search";
 import RightSide from "./Components/RightSide";
-import CssBaseline from '@material-ui/core/CssBaseline';
-
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 
 function App() {
-    return (
-        <div>
-            <CssBaseline />
-            <div style={{display:"flex", flexDirection:"row"}}>
-          <Search  /> {/*onChangeTerm={{(term) => }}*/}
-          <div style={{flex:2}}><RightSide term="NCLH"/></div>
+  const [term, setTerm] = useState("");
+  return (
+    <div>
+      <CssBaseline />
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <Search onChangeTerm={(term) => setTerm(term)} />
+        {term !== "" ? (
+          <div style={{ flex: 3 }}>
+            <RightSide term={term} />
+          </div>
+        ) : (
+            <div style={{ flex: 3,display:'flex', justifyContent:"center", alignItems:"center"}}>
+                Choose a stock to display data
             </div>
-        </div>
-    );
+        )}
+      </div>
+    </div>
+  );
 }
 
 export default App;

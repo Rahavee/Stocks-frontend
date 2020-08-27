@@ -70,7 +70,6 @@ export default function Graph(props) {
   };
   return (
     <div className={classes.graph}>
-      {props.data["closing price"].stock}
       <Chart
         options={state.options}
         series={state.series}
