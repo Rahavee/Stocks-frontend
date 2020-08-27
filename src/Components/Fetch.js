@@ -7,15 +7,16 @@ const useStyles = makeStyles({
     height: 48,
     width: "`100%-20px`",
     backgroundColor: "rgba(0,0,0,0.2)",
-    padding: "20px 0 0 35px",
+    padding: "15px 0 0 35px",
     marginTop: 10,
     marginRight: 10,
     marginLeft: 10,
     color: "white",
     borderRadius: 5,
-   '&:hover':{
-      cursor: "pointer"
-   }
+    fontFamily: "Tahoma, Geneva, sans-serif",
+    "&:hover": {
+      cursor: "pointer",
+    },
   },
 });
 
@@ -32,8 +33,9 @@ export default function Fetch(props) {
   let list = data.content;
   return (
     <div>
-      {list.map((x) => (
+      {list.map((x, index) => (
         <div
+          key={index}
           className={classes.card}
           onClick={() => {
             setStock(x.Symbol);

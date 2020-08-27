@@ -7,6 +7,7 @@ const useStyles = makeStyles({
         margin: "10px 10px 10px 10px",
         padding:"10px 5px 10px 10px",
         flex:1,
+        fontFamily:"Tahoma, Geneva, sans-serif",
         color:"black",
         borderRadius:10,
 

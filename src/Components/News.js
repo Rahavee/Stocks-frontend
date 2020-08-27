@@ -7,6 +7,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 
 const useStyles = makeStyles({
   container: {
+    fontFamily:"Tahoma, Geneva, sans-serif",
     width: "`100%-20px`",
     backgroundColor: "white",
     borderRadius: 10,
@@ -20,7 +21,6 @@ const useStyles = makeStyles({
 });
 export default function News(props) {
   const classes = useStyles();
-  console.log(props.data);
   return (
     <div className={classes.container}>
       <h1>News</h1>

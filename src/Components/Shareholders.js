@@ -6,6 +6,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 
 const useStyles = makeStyles({
    container:{
+       fontFamily:"Tahoma, Geneva, sans-serif",
        flex:1,
        backgroundColor: "white",
        borderRadius: 10,
@@ -15,14 +16,13 @@ const useStyles = makeStyles({
 });
 
 export default function Shareholders(props){
-    console.log(props.data);
     const classes = useStyles();
     return(<div className={classes.container}>
         <h1>Top 10 Mutual Funds</h1>
         <List>
-        {props.data.scarper.topMutualFunds.map((x,index)=>(<ListItem alignItems="flex-start">
+        {props.data.scarper.topMutualFunds.map((x,index)=>(<ListItem key={index} alignItems="flex-start">
             <ListItemText
-                key={index}
+
                 primary={x.name}
                 secondary={x.stake}
 

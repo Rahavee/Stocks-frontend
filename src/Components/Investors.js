@@ -7,6 +7,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 const useStyles = makeStyles({
   container: {
     flex:1,
+      fontFamily:"Tahoma, Geneva, sans-serif",
     backgroundColor: "white",
     borderRadius: 10,
     padding: "10px 5px 10px 10px",
@@ -15,7 +16,6 @@ const useStyles = makeStyles({
 });
 
 export default function Investors(props) {
-  console.log(props.data);
   const classes = useStyles();
   return (
     <div className={classes.container}>

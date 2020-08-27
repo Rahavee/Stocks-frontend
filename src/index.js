@@ -1,21 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import {SWRConfig} from "swr";
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import { SWRConfig } from "swr";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <SWRConfig
-            value={{
-                 fetcher: url => fetch("https://stonks108.herokuapp.com/"+url).then(res => res.json())
-            }}
-        >
-            <App/>
-        </SWRConfig>
-    </React.StrictMode>,
-    document.getElementById('root')
+  <React.StrictMode>
+    <SWRConfig
+      value={{
+        fetcher: (url) =>
+          fetch("https://stonks108.herokuapp.com/" + url).then((res) =>
+            res.json()
+          ),
+        shouldRetryOnError: false,
+      }}
+    >
+      <App />
+    </SWRConfig>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

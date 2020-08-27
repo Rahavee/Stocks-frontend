@@ -13,22 +13,23 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 
 const useStyles = makeStyles({
   rightSide: {
-      padding:10,
+    padding: 10,
     height: "100vh",
     overflowY: "auto",
-    backgroundColor: "light gray" ,
+    backgroundColor: "light gray",
   },
   descTweetWrapper: {
     display: "flex",
     flexDirection: "row",
-      ["@media screen and (max-width: 700px)"]: {
-          flexDirection:"column"
-      },
+    ["@media screen and (max-width: 700px)"]: {
+      flexDirection: "column",
+    },
   },
   investorsShareWrapper: {
     display: "flex",
     flexDirection: "row",
   },
+  loading: { marginTop: "30%" },
 });
 
 const override = css`
@@ -42,15 +43,26 @@ export default function RightSide(props) {
   const { data, error } = useSWR("/allData/" + props.term);
 
   if (error) {
-    return "NOthing fou";
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        {" "}
+        No Information found for this stock
+      </div>
+    );
   }
   if (!data) {
     return (
-      <div className="sweet-loading">
+      <div className={classes.loading}>
         <ClimbingBoxLoader
           css={override}
           size={50}
-          color={"#16EF9E"}
+          color={"#30C2BC"}
           loading={true}
         />
       </div>
@@ -59,18 +71,22 @@ export default function RightSide(props) {
 
   return (
     <div className={classes.rightSide}>
-        <h1>{data["closing price"].stock}</h1>
+      <h1>{data["closing price"].stock}</h1>
       <Graph data={data} />
       <div className={classes.descTweetWrapper}>
-        <Desc data={data} />
+        {data.scarper.status !== "error" ? <Desc data={data} /> : ""}
         <Tweets data={data} />
       </div>
-      <News data={data} />
-      <PieChart data={data} />
-      <div className={classes.investorsShareWrapper}>
-        <Shareholders data={data} />
-        <Investors data={data} />
-      </div>
+      {data.news.status !== "error" ? <News data={data} /> : ""}
+      {data.scarper.status !== "error" ? <PieChart data={data} /> : ""}
+      {data.scarper.status !== "error" ? (
+        <div className={classes.investorsShareWrapper}>
+          <Shareholders data={data} />
+          <Investors data={data} />
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 }
