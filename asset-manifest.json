@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Stocks-frontend/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Stocks-frontend/static/js/main.6eed5df0.chunk.js",
+    "main.js.map": "/Stocks-frontend/static/js/main.6eed5df0.chunk.js.map",
+    "runtime-main.js": "/Stocks-frontend/static/js/runtime-main.88eac02b.js",
+    "runtime-main.js.map": "/Stocks-frontend/static/js/runtime-main.88eac02b.js.map",
+    "static/js/2.a9c84109.chunk.js": "/Stocks-frontend/static/js/2.a9c84109.chunk.js",
+    "static/js/2.a9c84109.chunk.js.map": "/Stocks-frontend/static/js/2.a9c84109.chunk.js.map",
+    "index.html": "/Stocks-frontend/index.html",
+    "precache-manifest.2ed0511687d81f128347b4af6ac327fa.js": "/Stocks-frontend/precache-manifest.2ed0511687d81f128347b4af6ac327fa.js",
+    "service-worker.js": "/Stocks-frontend/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Stocks-frontend/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.a9c84109.chunk.js.LICENSE.txt": "/Stocks-frontend/static/js/2.a9c84109.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88eac02b.js",
+    "static/js/2.a9c84109.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.6eed5df0.chunk.js"
+  ]
+}
