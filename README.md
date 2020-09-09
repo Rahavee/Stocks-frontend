@@ -4,4 +4,4 @@ Moneta is an aggregation of vital information about a stock that a potential inv
 
 Live demo: [Moneta](https://rahavee.github.io/Stocks-frontend/)
 
-[Backend: ](https://github.com/Rahavee/SentimentAPI)
+[Backend](https://github.com/Rahavee/SentimentAPI)
