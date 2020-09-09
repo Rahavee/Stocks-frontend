@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6890b34b-961c-4cb5-a3b2-fafd3293e39b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/News.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Tweets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Desc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Desc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/RightSide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/RightSide.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +43,25 @@
   <component name="ProjectId" id="1g6N0a4ucW8s8nAdU0Z5GhevH8y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\lugle\WebstormProjects\stocks\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lugle\WebstormProjects\stocks\src\Components" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,6 +79,8 @@
       <workItem from="1597710503930" duration="12998000" />
       <workItem from="1597852511818" duration="17374000" />
       <workItem from="1597973094539" duration="5004000" />
+      <workItem from="1598726317646" duration="1074000" />
+      <workItem from="1599081877841" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="Added search bar">
       <created>1597772273523</created>
@@ -89,7 +107,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added search bar" />
@@ -111,10 +141,11 @@
       <screen x="0" y="0" width="1333" height="849" />
     </state>
     <state x="187" y="323" key="Github.ShareDialog/0.0.1333.849@0.0.1333.849" timestamp="1597697886405" />
-    <state x="177" y="69" key="SettingsEditor" timestamp="1597693256959">
-      <screen x="0" y="0" width="1333" height="849" />
+    <state x="212" y="100" width="1022" height="737" key="SettingsEditor" timestamp="1598726402218">
+      <screen x="0" y="29" width="1600" height="871" />
     </state>
     <state x="177" y="69" key="SettingsEditor/0.0.1333.849@0.0.1333.849" timestamp="1597693256959" />
+    <state x="212" y="100" width="1022" height="737" key="SettingsEditor/0.29.1600.871@0.29.1600.871" timestamp="1598726402218" />
     <state x="144" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597873702117">
       <screen x="0" y="0" width="1333" height="849" />
     </state>
